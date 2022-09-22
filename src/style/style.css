@@ -1,0 +1,11 @@
+.carousel-item img {
+    height: 90vh;
+    width: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.judul {
+    font-size: 3rem;
+}
