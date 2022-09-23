@@ -22,6 +22,9 @@ module.exports = {
             },
         ],
     },
+    experiments: {
+        topLevelAwait: true,
+    },
     /* plugin */
     plugins: [
         /* HTML Webpack Plugin */

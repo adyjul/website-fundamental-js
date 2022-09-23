@@ -12,7 +12,8 @@
     "license": "ISC",
     "dependencies": {
         "bootstrap": "^5.2.1",
-        "jquery": "^3.6.1"
+        "jquery": "^3.6.1",
+        "sweetalert": "^2.1.2"
     },
     "devDependencies": {
         "@babel/core": "^7.19.1",
