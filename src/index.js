@@ -17,14 +17,13 @@ const loader = {
         loading.css('display', 'none')
     }
 };
-
-async function dataMovie() {
+const dataMovie = async() => {
     var urlCarousel = urlSearchByName('adventure');
     let result = await getData(urlCarousel);
     return result.Search;
 }
 
-async function getBySearch(value) {
+let getBySearch = async(value) => {
     try {
         var url = urlSearchByName(value);
         let result = await getData(url);
